@@ -11,6 +11,7 @@ import {WarningAlertComponent} from './warning-alert/warning-alert.component';
 import {SuccessAlertComponent} from './success-alert/success-alert.component';
 import {BasicHighlightDirective} from "./basic-highlight/basic-highlight.directive";
 import { BetterHighlightDirective } from './better-highlight/better-highlight.directive';
+import { UnlessDirective } from './unless.directive';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BetterHighlightDirective } from './better-highlight/better-highlight.di
     WarningAlertComponent,
     SuccessAlertComponent,
     BasicHighlightDirective,
-    BetterHighlightDirective
+    BetterHighlightDirective,
+    UnlessDirective
   ],
   imports: [
     BrowserModule,
