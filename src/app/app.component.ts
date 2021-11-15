@@ -6,10 +6,10 @@ import {Component} from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  numbers: number[] = [1, 2, 3, 4, 5];
-  oddNumbers:number[]=[2,4];
-  evenNumbers:number[]=[1,3,5];
-  onlyOdd: boolean = false
+  numbers = [1, 2, 3, 4, 5];
+  oddNumbers = [2, 4];
+  evenNumbers = [1, 3, 5];
+  onlyOdd = false
   title = 'learning-project';
 
 }
