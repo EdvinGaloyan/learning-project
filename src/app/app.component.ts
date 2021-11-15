@@ -11,5 +11,5 @@ export class AppComponent {
   evenNumbers = [1, 3, 5];
   onlyOdd = false
   title = 'learning-project';
-
+  value = 4;
 }
