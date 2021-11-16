@@ -22,7 +22,7 @@ import { UnlessDirective } from './unless.directive';
     SuccessAlertComponent,
     BasicHighlightDirective,
     BetterHighlightDirective,
-    UnlessDirective
+    UnlessDirective,
   ],
   imports: [
     BrowserModule,
